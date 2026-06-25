@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bioma de Palmares - Uruguay</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:4rem;
+    color:#22c55e;
+    margin-bottom:20px;
+}
+
+header p{
+    max-width:800px;
+    font-size:1.3rem;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:30px;
+    backdrop-filter:blur(8px);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#4ade80;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#0f172a;
+    color:#94a3b8;
+}
+
+.hero{
+    font-size:5rem;
+    margin-bottom:20px;
+}
+
+.conclusion{
+    text-align:center;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.5rem;
+    }
+
+    header p{
+        font-size:1rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">🌴</div>
+    <h1>Bioma de Palmares</h1>
+    <p>
+        Los palmares son uno de los ecosistemas más característicos de Uruguay.
+        Forman parte del bioma de praderas y se destacan por la presencia de
+        palmeras nativas y una gran biodiversidad.
+    </p>
+</header>
+
+<section>
+
+    <div class="card">
+        <h2>📚 ¿Qué es un palmar?</h2>
+        <p>
+            Un palmar es un ecosistema donde las palmeras son la vegetación
+            predominante. En Uruguay constituyen un paisaje natural único y de
+            gran valor ecológico.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🌎 Bioma y Subbioma</h2>
+        <p>
+            Los palmares son un <strong>subbioma de las praderas o pastizales
+            templados</strong>, que constituyen el principal bioma de Uruguay.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>📍 Ubicación</h2>
+        <p>Los principales palmares se encuentran en:</p>
+        <ul>
+            <li>Rocha</li>
+            <li>Treinta y Tres</li>
+            <li>Cerro Largo</li>
+            <li>Paysandú</li>
+            <li>Río Negro</li>
+        </ul>
+        <p>
+            Uno de los más conocidos es el <strong>Palmar de Castillos</strong>,
+            ubicado en Rocha.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>☀️ Clima</h2>
+        <ul>
+            <li>Templado húmedo.</li>
+            <li>Lluvias durante todo el año.</li>
+            <li>Veranos cálidos.</li>
+            <li>Inviernos moderados.</li>
+            <li>Presencia frecuente de vientos.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🌿 Flora</h2>
+        <p>La especie más representativa es la palmera butiá.</p>
+        <ul>
+            <li>Palmera butiá.</li>
+            <li>Pastos naturales.</li>
+            <li>Gramíneas.</li>
+            <li>Arbustos nativos.</li>
+            <li>Talas y coronillas.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🦊 Fauna</h2>
+        <ul>
+            <li>Carpinchos.</li>
+            <li>Zorros de campo.</li>
+            <li>Mulitas.</li>
+            <li>Comadrejas.</li>
+            <li>Lagartos.</li>
+            <li>Lechuzas.</li>
+            <li>Cardenales.</li>
+            <li>Teros.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🌱 Importancia ecológica</h2>
+        <ul>
+            <li>Conservan la biodiversidad.</li>
+            <li>Brindan refugio a numerosas especies.</li>
+            <li>Protegen el suelo de la erosión.</li>
+            <li>Forman parte del patrimonio natural uruguayo.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🍊 Uso de los frutos del butiá</h2>
+        <p>Los frutos de la palmera butiá se utilizan para elaborar:</p>
+        <ul>
+            <li>Dulces.</li>
+            <li>Mermeladas.</li>
+            <li>Licores.</li>
+            <li>Helados.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>⚠️ Problemas actuales</h2>
+        <ul>
+            <li>Avance de la agricultura.</li>
+            <li>Sobrepastoreo del ganado.</li>
+            <li>Incendios.</li>
+            <li>Dificultad para la regeneración natural de las palmeras.</li>
+        </ul>
+    </div>
+
+    <div class="card conclusion">
+        <h2>✅ Conclusión</h2>
+        <p>
+            Los palmares son un subbioma de las praderas uruguayas y representan
+            uno de los ambientes naturales más importantes del país. Su riqueza
+            en flora y fauna, junto con la presencia de la palmera butiá, los
+            convierte en un ecosistema único que debe ser protegido para las
+            futuras generaciones.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    Presentación sobre el Bioma de Palmares de Uruguay 🌴 🇺🇾
+</footer>
+
+</body>
+</html>
